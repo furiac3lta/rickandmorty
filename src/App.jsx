@@ -29,6 +29,7 @@ const App = () => {
         <button className="app__button">Search</button>
       </form>
       {hasError ? <ErrorContent /> : <MainContent location={location} />}
+      <div className="app__space"></div>
       <footer className="app__footer">
       <p>Marcelo Colum Copyright &copy; 2023 - All Rights Reserved.</p>
       </footer>
