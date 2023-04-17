@@ -34,3 +34,9 @@
     background-color: rgb(138, 187, 65);
     color: white;
 }
+.app__footer{
+    background-color: #0b1617;
+    padding-bottom: 2em;
+    text-align: center;
+    padding-top: 2em;
+}
