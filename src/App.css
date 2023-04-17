@@ -1,0 +1,36 @@
+.app{
+    background-color: #05292E;
+    min-height: 100vh;
+}
+.app__header{
+    background-image: url('../public/header.jpg');
+    background-size: cover;
+    height: 100px;
+    
+} 
+.app__title{
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 1.5em;
+    color: black;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.app__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.app__input{
+    margin-top: 2em;
+    padding: 0.6em 1.2em;
+    border-radius: 0.5em 0 0  0.5em;
+}
+.app__button{
+    margin-top: 2em;
+    border-radius: 0 0.5em 0.5em 0;
+    padding: 0.6em 1em;
+    background-color: rgb(138, 187, 65);
+    color: white;
+}
